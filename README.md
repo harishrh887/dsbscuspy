@@ -49,11 +49,11 @@ Program
 import numpy as np  
 import matplotlib.pyplot as plt  
 
-am = 6.9  
-fm = 584  
-ac = 13.8  
-fc = 5840  
-fs = 58400  
+am = 6.6
+fm = 504  
+ac = 13.2  
+fc = 5040  
+fs = 50400  
 t = np.arange(0, 2/fm, 1/fs)  
 
 m = am * np.cos(2 * np.pi * fm * t)  
@@ -74,12 +74,13 @@ plt.show()
 
 Output Graph
 
-![ea9da74a-60c5-4400-a55d-0e9af77291d5](https://github.com/user-attachments/assets/1c7dc8b1-9917-463a-8102-959fa2cda398)
+<img width="705" height="511" alt="Screenshot 2025-11-22 122455" src="https://github.com/user-attachments/assets/05215cc1-a6c5-40b7-b56f-2591db4311a6" />
 
 
 Tablular Column
 
-![2a98a077-b14c-46fc-b549-eec8ca0616e5](https://github.com/user-attachments/assets/2b12d016-a2c6-473e-9ebd-0296156dd097)
+<img width="1280" height="980" alt="image" src="https://github.com/user-attachments/assets/d2a77726-16c4-460f-988b-9b76cffe6b9b" />
+
 
 
 Result
