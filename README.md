@@ -49,9 +49,9 @@ Program
 import numpy as np  
 import matplotlib.pyplot as plt  
 
-am = 6.6
+am = 6.5
 fm = 504  
-ac = 13.2  
+ac = 13  
 fc = 5040  
 fs = 50400  
 t = np.arange(0, 2/fm, 1/fs)  
