@@ -49,11 +49,16 @@ Program
 import numpy as np  
 import matplotlib.pyplot as plt  
 
-am = 6.5
-fm = 504  
-ac = 13  
-fc = 5040  
-fs = 50400  
+am = 6.8
+
+fm = 607 
+
+ac = 13.6
+
+fc = 6070 
+
+fs = 60700 
+
 t = np.arange(0, 2/fm, 1/fs)  
 
 m = am * np.cos(2 * np.pi * fm * t)  
@@ -73,13 +78,14 @@ plt.tight_layout()
 plt.show()  
 
 Output Graph
+<img width="960" height="401" alt="dsbsc using python-ac" src="https://github.com/user-attachments/assets/581012bd-d404-44f7-893e-405dff6c66f4" />
 
-<img width="705" height="511" alt="Screenshot 2025-11-22 122455" src="https://github.com/user-attachments/assets/05215cc1-a6c5-40b7-b56f-2591db4311a6" />
 
 
 Tablular Column
+![WhatsApp Image 2025-11-27 at 19 31 01_801182b4](https://github.com/user-attachments/assets/4d69ad9e-1755-4c97-ba86-1a6923a76a9c)
 
-<img width="1280" height="980" alt="image" src="https://github.com/user-attachments/assets/d2a77726-16c4-460f-988b-9b76cffe6b9b" />
+
 
 
 
